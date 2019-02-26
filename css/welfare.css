@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style-type: none;
+	list-style-image: none;
+}
+
+a{
+	text-decoration: none;
+	outline: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/*员工福利*/
+#employee_welfare{
+	width: 750px;
+	height: auto;
+	margin: 0 auto;
+}
+#employee_welfare img{
+	display: block;
+}
+
+/*劳防*/
+#labor_container{
+	width: 750px;
+	height: auto;
+	margin: 0 auto;
+	background: #FFFFFF;
+}
+#labor_container .top{
+	width: 740px;
+	height: 530px;
+	background: #d80c18;
+	padding-left: 10px;
+}
+#labor_container .top .concern{
+	width: 590px;
+	height: 22px;
+	margin: 0 auto;
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 22px;
+	color: #FFFFFF;
+}
+#labor_container .top .concern a{
+	display: block;
+	font-size: 22px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+#labor_container img{
+	display: block;	
+}
+#labor_container .mro{
+	width: 678px;
+	height: 680px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+#labor_container .mro li{
+	width: 218px;
+	height: 160px;
+	border: 1px solid #e60012;
+	box-shadow: 5px 5px 5px #e3e2e3;
+	
+}
+#labor_container .mro li a{
+	display: flex;
+	justify-content: space-between;
+}
+#labor_container .mro #describe{
+	width: 30px;
+	height: 160px;
+	background: #E60012;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#labor_container .mro p{
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: "simhei";
+	writing-mode: tb-rl;
+	text-align: center;
+}
+#labor_container .solve{
+	width: 690px;
+	height: 970px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+#labor_container .solve li{
+	width: 336px;
+	height: 226px;
+	overflow: hidden;
+	position: relative;
+}
+#labor_container .solve li a{
+	display: block;
+	width: 336px;
+	height: 226px;
+	overflow: hidden;
+	position: relative;
+}
+#labor_container .solve li div{
+	width: 340px;
+	height: 45px;
+	background: #fff;
+	opacity: 0.6;
+	position: absolute;
+	left: -1px;
+	bottom: -1px;
+}
+#labor_container .solve li p{
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	line-height: 45px;
+	font-family: simhei;
+	
+}
